@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Studi Kasus</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Nabung Harian</h1>
+
+      <!-- Form Input Nominal -->
+      <div id="input-nominal">
+        <h2 class="text-center">Input Nominal</h2>
+        <form id="form-input-nominal">
+          <div class="form-control">
+            <label for="tanggal">Tanggal</label>
+            <input type="date" id="tanggal" />
+          </div>
+          <div class="form-control">
+            <label for="nominal">Nominal (Rp)</label>
+            <input type="number" id="nominal" />
+          </div>
+          <button type="submit">Simpan</button>
+        </form>
+      </div>
+      <!-- End Form Input Nominal -->
+
+      <!-- Daftar Tabungan -->
+      <div class="daftar-tabungan">
+        <table id="table-daftar-tabungan">
+          <thead>
+            <tr>
+              <th>Tanggal</th>
+              <th>Nominal</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <!-- End Daftar Tabungan -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

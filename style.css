@@ -1,0 +1,90 @@
+/* CSS Reset */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+/* Utils */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Layout */
+
+.container {
+  height: 100vh;
+  width: 768px;
+  padding: 1.5rem;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control input {
+  width: 100%;
+}
+
+/* Components */
+
+label {
+  display: block;
+}
+
+input {
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+/* Sections */
+
+.daftar-tabungan {
+  margin: 1rem auto;
+  width: 75%;
+}
+
+.daftar-tabungan label {
+  display: inline;
+  margin-right: 2rem;
+}
+
+.daftar-tabungan table {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+#input-nominal {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 75%;
+}
+
+#form-input-nominal {
+  margin-top: 1rem;
+}
