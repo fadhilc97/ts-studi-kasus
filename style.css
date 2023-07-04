@@ -16,10 +16,6 @@ body {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
-
 /* Layout */
 
 .container {
@@ -38,6 +34,19 @@ body {
   width: 100%;
 }
 
+/* Sections */
+
+#input-nominal {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 75%;
+}
+
+#form-input-nominal {
+  margin-top: 1rem;
+}
+
 /* Components */
 
 label {
@@ -53,38 +62,15 @@ button {
   padding: 0.5rem;
 }
 
+table {
+  margin: 1rem auto;
+  width: 75%;
+}
+
 table,
 th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 0.5rem;
-}
-
-/* Sections */
-
-.daftar-tabungan {
-  margin: 1rem auto;
-  width: 75%;
-}
-
-.daftar-tabungan label {
-  display: inline;
-  margin-right: 2rem;
-}
-
-.daftar-tabungan table {
-  margin: 1rem 0;
-  width: 100%;
-}
-
-#input-nominal {
-  border: 1px solid black;
-  padding: 1rem;
-  margin: 1rem auto;
-  width: 75%;
-}
-
-#form-input-nominal {
-  margin-top: 1rem;
 }
